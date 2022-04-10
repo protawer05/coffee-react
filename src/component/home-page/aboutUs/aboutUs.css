@@ -1,0 +1,23 @@
+.about__title{
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.about__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 590px;
+}
+
+.about__wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+}

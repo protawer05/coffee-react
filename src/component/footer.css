@@ -1,0 +1,30 @@
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.footer__list-item{
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000;
+}
+.footer__list{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 30px;
+}
+.footer__list::after{
+    content: url(../img/footer-beans.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 0;
+}

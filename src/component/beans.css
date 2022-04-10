@@ -1,0 +1,24 @@
+.beans{
+    background: url(../img/footer-beans1.png);
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.beans::after{
+    content:'';
+    position: absolute;
+    width: 60px;
+    border: 1px solid #000000;
+    left: 50px;
+    top: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.beans::before{
+    content:'';
+    position: absolute;
+    width: 60px;
+    border: 1px solid #000000;
+    left: -90px;
+    top: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

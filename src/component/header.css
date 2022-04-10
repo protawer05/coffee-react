@@ -1,0 +1,33 @@
+.header{
+    margin-top: 40px;
+    display: block;
+    margin-left: -300px;
+}
+.list-item{
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    cursor: pointer;
+}
+.list-item:hover{
+    color: red;
+}
+.list{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 30px;
+}
+.list::after{
+    content: url(../img/header-beans.svg);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 0;
+}
