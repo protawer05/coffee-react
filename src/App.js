@@ -1,5 +1,5 @@
 import { Component } from 'react';
-
+import Header from './component/Header';
 import HomePage from './component/home-page/HomePage'
 
 import './App.css';
@@ -21,15 +21,15 @@ class App extends Component {
       if (page === ''){
         return <HomePage changePage={this.changePage}/>
       } else if (page === 1){
-        return 1 // <CoffePage/>
+        return <Header style={'color="#000"'}/>
       }
     }
 
-  render(){
-    return(
-      this.setPage()
-    )
-  }
+    render(){
+      return(
+         this.setPage()
+      )
+    }
 
 }
 

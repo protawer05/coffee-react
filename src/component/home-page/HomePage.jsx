@@ -13,8 +13,8 @@ const HomePage = ({changePage}) => {
     `
     return(
         <>
+        <Header changePage={changePage}/>
         <Wrapper>
-            <Header changePage={changePage}/>
             <Title/>
             <AboutUs/>
         </Wrapper>
