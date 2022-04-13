@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import Header from './component/Header';
-import HomePage from './component/home-page/HomePage'
+import HomePage from './component/home-page/HomePage';
+import CoffeHouse from './component/coffeHouse-page/CoffeHouse';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends Component {
     constructor(props){
         super(props)
         this.state = {
-          page: ''
+          page: 1
         }
     }
     changePage = (page) => {
@@ -18,10 +18,14 @@ class App extends Component {
     }
     setPage = () => {
       const page = this.state.page
-      if (page === ''){
+      if (page === 1){
         return <HomePage changePage={this.changePage}/>
-      } else if (page === 1){
-        return <Header style={'color="#000"'}/>
+      } else if (page === 2){
+        return <CoffeHouse changePage={this.changePage}/>
+      } else if (page === 3){
+        return  // Our coffe
+      } else if (page === 4){
+        return // For your pleasure
       }
     }
 

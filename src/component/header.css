@@ -1,7 +1,7 @@
 .header{
     margin-top: 40px;
     display: block;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 .list-item{
     font-family: 'Merienda';
@@ -23,11 +23,11 @@
     position: relative;
     margin-bottom: 30px;
 }
-.list::after{
-    content: url(../img/header-beans.svg);
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: -20px;
-    left: 0;
+
+.logo__link{
+    margin-top: -10px;
+    cursor: pointer;
+}
+.logo__link:hover{
+    opacity: 0.75;
 }
